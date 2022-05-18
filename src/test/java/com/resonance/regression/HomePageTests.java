@@ -15,4 +15,8 @@ public class HomePageTests extends BaseTest{
 		HomePage home= PageFactory.initElements(keyword.driver,HomePage.class);
 		home.clickOnAssignment();
 	}
+	@Test
+	public void confirmationOnVideoClick() {
+		System.out.println("OK");
+	}
 }
