@@ -9,8 +9,6 @@ public class HomePage {
 	
 	@FindBy(css = "a[href=\"/assignments\"]")
 	public WebElement assignmentLnk;
-	
-	
 	public void clickOnAssignment() {
 		assignmentLnk.click();
 	}

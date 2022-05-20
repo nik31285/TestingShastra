@@ -16,7 +16,7 @@ public class HomePageTests extends BaseTest{
 		home.clickOnAssignment();
 	}
 	@Test
-	public void confirmationOnVideoClick() {
+	public void videoClickCheck() {
 		System.out.println("OK");
 	}
 }
