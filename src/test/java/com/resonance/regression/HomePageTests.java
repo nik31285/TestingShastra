@@ -19,4 +19,8 @@ public class HomePageTests extends BaseTest{
 	public void videoClickCheck() {
 		System.out.println("OK");
 	}
+	@Test
+	private void clickOnAssignment() {
+		System.out.println("Click on Assignment");
+	}
 }
