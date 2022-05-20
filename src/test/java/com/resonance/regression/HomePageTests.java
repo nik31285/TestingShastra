@@ -22,5 +22,6 @@ public class HomePageTests extends BaseTest{
 	@Test
 	private void clickOnAssignment() {
 		System.out.println("Click on Assignment");
+		System.out.println("This is detail");
 	}
 }
